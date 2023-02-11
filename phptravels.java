@@ -25,18 +25,7 @@ public class phptravels {
 		
 		driver.findElement(By.xpath(("//a[@class='jfHeader-menuListLink jfHeader-dynamicLink jfHeader-signup-action signup']"))).click();
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+			
 		/*driver.findElement(By.xpath(("(//*[text()='Enter city or airport'] [1])"))).click();
 		
 		driver.findElement(By.xpath(("//input[@type='text']"))).sendKeys("Pune");
