@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowRight, Play, Award, Users, Sparkles, ChevronRight } from 'lucide-react';
+import TwinzyLogo from '../components/TwinzyLogo';
 import '../styles/premium-design.css';
 
 const PremiumDesign = () => {
@@ -48,11 +49,7 @@ const PremiumDesign = () => {
       {/* Premium Navigation */}
       <nav className="premium-nav">
         <div className="premium-nav-content">
-          <img 
-            src="https://customer-assets.emergentagent.com/job_f926e287-6a34-490f-b6e8-a51db27087dd/artifacts/9048ha4b_twinzy-high-resolution-logo-transparent.png"
-            alt="Twinzy"
-            className="premium-logo"
-          />
+          <TwinzyLogo inverted={true} />
           <div className="premium-nav-links">
             <a href="#work">Work</a>
             <a href="#about">About</a>
@@ -264,12 +261,8 @@ const PremiumDesign = () => {
       <footer className="premium-footer">
         <div className="premium-footer-content">
           <div className="footer-column">
-            <img 
-              src="https://customer-assets.emergentagent.com/job_f926e287-6a34-490f-b6e8-a51db27087dd/artifacts/9048ha4b_twinzy-high-resolution-logo-transparent.png"
-              alt="Twinzy"
-              className="footer-logo"
-            />
-            <p>Sculpting memories into reality since 2009</p>
+            <TwinzyLogo inverted={true} className="footer-logo-component" />
+            <p style={{ marginTop: '1rem' }}>Sculpting memories into reality since 2009</p>
           </div>
           <div className="footer-column">
             <h4>Contact</h4>
