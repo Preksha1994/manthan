@@ -382,11 +382,13 @@ const UltraEngagingDesign = () => {
         <div className="footer-container">
           <div className="footer-main">
             <div className="footer-brand">
-              <img 
-                src="https://customer-assets.emergentagent.com/job_lifelikeart/artifacts/tog633sh_twinzy-high-resolution-logo-transparent.png"
-                alt="Twinzy Sculptures"
-                className="footer-logo"
-              />
+              <div className="footer-logo-container">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_lifelikeart/artifacts/tog633sh_twinzy-high-resolution-logo-transparent.png"
+                  alt="Twinzy Sculptures"
+                  className="footer-logo"
+                />
+              </div>
               <p>Hyper-realistic silicone sculptures, wax figures, and memorial statues since 2009</p>
               <div className="seo-keywords">
                 <span>Life-size sculptures</span>
