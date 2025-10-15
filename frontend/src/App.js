@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import ThemePreview from './pages/ThemePreview';
+import PremiumDesign from './pages/PremiumDesign';
 
 function App() {
-  return <ThemePreview />;
+  return <PremiumDesign />;
 }
 
 export default App;
