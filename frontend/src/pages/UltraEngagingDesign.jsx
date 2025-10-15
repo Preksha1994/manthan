@@ -10,7 +10,6 @@ const UltraEngagingDesign = () => {
     const handleScroll = () => setScrollY(window.scrollY);
     window.addEventListener('scroll', handleScroll);
     
-    // Show CTA popup after 10 seconds
     const timer = setTimeout(() => setShowCTAPopup(true), 10000);
     
     return () => {
@@ -62,7 +61,7 @@ const UltraEngagingDesign = () => {
           <div className="nav-links">
             <a href="#gallery">Gallery</a>
             <a href="#testimonials">Reviews</a>
-            <a href="#process">Process</a>
+            <a href="/process">Our Process</a>
             <a href="#about">About</a>
           </div>
           <button className="nav-cta-btn pulse-btn">
@@ -295,6 +294,13 @@ const UltraEngagingDesign = () => {
               </div>
             </div>
           </div>
+
+          <div className="gallery-cta">
+            <a href="/process" className="view-process-btn">
+              <span>View Our Detailed 14-Step Process</span>
+              <ArrowRight size={20} />
+            </a>
+          </div>
         </div>
       </section>
 
@@ -338,47 +344,6 @@ const UltraEngagingDesign = () => {
         </div>
       </section>
 
-      {/* Process Section */}
-      <section id="process" className="process-section">
-        <div className="section-container">
-          <div className="section-header-center">
-            <span className="section-label">OUR PROCESS</span>
-            <h2 className="section-title">From Vision to Hyper-Realistic Masterpiece</h2>
-          </div>
-
-          <div className="process-timeline">
-            <div className="process-step">
-              <div className="step-number">01</div>
-              <div className="step-content">
-                <h3>Consultation & Photography</h3>
-                <p>Detailed photo session capturing every angle, expression, and unique feature</p>
-              </div>
-            </div>
-            <div className="process-step">
-              <div className="step-number">02</div>
-              <div className="step-content">
-                <h3>Clay Sculpting</h3>
-                <p>Master sculptors hand-craft the form with microscopic detail precision</p>
-              </div>
-            </div>
-            <div className="process-step">
-              <div className="step-number">03</div>
-              <div className="step-content">
-                <h3>Silicone Casting</h3>
-                <p>Medical-grade silicone molding captures every subtle texture</p>
-              </div>
-            </div>
-            <div className="process-step">
-              <div className="step-number">04</div>
-              <div className="step-content">
-                <h3>Artistic Finishing</h3>
-                <p>Hand-painting skin tones and individual hair insertion for lifelike realism</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Final CTA Section */}
       <section className="final-cta-section">
         <div className="cta-container">
@@ -397,7 +362,7 @@ const UltraEngagingDesign = () => {
             <div className="cta-trust-signals">
               <div className="trust-item">
                 <CheckCircle size={20} />
-                <span>Money-back guarantee</span>
+                <span>3-Year Warranty</span>
               </div>
               <div className="trust-item">
                 <CheckCircle size={20} />
