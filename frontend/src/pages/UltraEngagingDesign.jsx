@@ -98,13 +98,13 @@ const UltraEngagingDesign = () => {
             </div>
 
             <h1 className="hero-title">
-              <span className="title-highlight">Immortalize</span> Your Loved Ones in
+              <span className="title-highlight">Preserve</span> Precious Memories
               <br />
-              <span className="title-gradient">Hyper-Realistic Silicone</span>
+              <span className="title-gradient">Forever in Art</span>
             </h1>
 
             <p className="hero-subtitle">
-              Transform precious memories into breathtaking life-size sculptures. Museum-quality artistry that captures every detail, every emotion, every moment forever.
+              Transform cherished moments into breathtaking life-size sculptures. Museum-quality artistry that captures the essence, emotion, and beauty of those you hold dear - keeping memories alive through hyper-realistic craftsmanship.
             </p>
 
             <div className="hero-features">
