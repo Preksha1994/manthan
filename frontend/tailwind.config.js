@@ -52,7 +52,28 @@ module.exports = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+  			// Custom Twinzy brand colors
+  			'black': '#151515',
+  			'white': '#fff',
+  			'dark-grey': '#717171',
+  			'mid-grey': '#aaa',
+  			'grey': '#b6cbcb',
+  			'dark-blue': '#1f47e6',
+  			'mid-blue': '#88a2ff',
+  			'light-blue': '#b7fbff',
+  			'dark-orange': '#d1903a',
+  			'mid-orange': '#ff965a',
+  			'mid-pink': '#ff84e4',
+  			'light-pink': '#ffd1e7',
+  			'mid-purple': '#d987ff',
+  			'mid-yellow': '#ffe03d',
+  			'light-yellow': '#f6fd87',
+  			'dark-green': '#a1a500',
+  			'mid-green': '#78d692',
+  		},
+  		maxWidth: {
+  			'8xl': '1920px',
   		},
   		keyframes: {
   			'accordion-down': {
