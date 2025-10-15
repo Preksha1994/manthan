@@ -1,34 +1,208 @@
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+.App {
+  min-height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
+/* Hero Section */
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
-.App-header {
-    background-color: #0f0f10;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
 }
 
-.App-link {
-    color: #61dafb;
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff965a;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d1903a;
+}
+
+/* Fade-in animation for portfolio items */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.project-card {
+  animation: fadeInUp 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+/* Transitions for interactive elements */
+button,
+a {
+  transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+/* Focus visible for accessibility */
+:focus-visible {
+  outline: 2px solid #ff965a;
+  outline-offset: 2px;
+}
+
+/* Service button base styles */
+.service-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: 1px solid currentColor;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+/* CTA Button styles */
+.cta-button {
+  background: #151515;
+  color: #fff;
+  border: 1px solid #151515;
+  border-radius: 9999px;
+  padding: 0.625rem 1.5rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background: #ff965a;
+  border-color: #ff965a;
+  transform: translateY(-2px);
+}
+
+.cta-button.large {
+  padding: 1rem 2rem;
+  font-size: 0.875rem;
+}
+
+/* Navigation link styles */
+.nav-link {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Typography classes from design system */
+.brand-display {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.section-heading {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.2;
+}
+
+.card-heading {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: clamp(1.125rem, 2vw, 1.25rem);
+  line-height: 1.4;
+}
+
+.body-large {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: clamp(1rem, 1.5vw, 1.125rem);
+  line-height: 1.6;
+}
+
+.body-medium {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.body-small {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.caption {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+/* Color utilities */
+.text-mid-orange {
+  color: #ff965a;
+}
+
+.text-dark-grey {
+  color: #717171;
+}
+
+.text-mid-grey {
+  color: #aaa;
+}
+
+.bg-mid-orange {
+  background-color: #ff965a;
+}
+
+.bg-light-pink {
+  background-color: #ffd1e7;
+}
+
+.bg-light-yellow {
+  background-color: #f6fd87;
+}
+
+.bg-mid-purple {
+  background-color: #d987ff;
+}
+
+.bg-mid-blue {
+  background-color: #88a2ff;
 }

@@ -1,0 +1,51 @@
+// Mock data for portfolio
+export const portfolioData = [
+  {
+    id: 1,
+    title: 'Presidential Portrait',
+    description: 'Life-size hyper-realistic sculpture capturing leadership and dignity',
+    category: 'life-size',
+    image: 'https://images.unsplash.com/photo-1643113232611-8cbc1683cfc2',
+    tagColor: '#ffd1e7',
+  },
+  {
+    id: 2,
+    title: 'Musical Icon',
+    description: 'Commemorative sculpture celebrating a legendary performer',
+    category: 'life-size',
+    image: 'https://images.unsplash.com/photo-1643113231904-ea2af9b4ebcb',
+    tagColor: '#ffe03d',
+  },
+  {
+    id: 3,
+    title: 'Pop Star Tribute',
+    description: 'Half-body sculpture with intricate costume detail',
+    category: 'half-body',
+    image: 'https://images.unsplash.com/photo-1643113232724-c7f36cb4bd41',
+    tagColor: '#d987ff',
+  },
+  {
+    id: 4,
+    title: 'Classical Master',
+    description: 'Detailed bust sculpture showcasing artistic precision',
+    category: 'bust',
+    image: 'https://images.unsplash.com/photo-1719582116363-a55de8b46222',
+    tagColor: '#88a2ff',
+  },
+  {
+    id: 5,
+    title: 'Heritage Collection',
+    description: 'Museum-quality bust sculptures for educational display',
+    category: 'bust',
+    image: 'https://images.pexels.com/photos/2362469/pexels-photo-2362469.jpeg',
+    tagColor: '#78d692',
+  },
+  {
+    id: 6,
+    title: 'Family Memory',
+    description: 'Emotional sculpture preserving cherished moments',
+    category: 'life-size',
+    image: 'https://images.unsplash.com/photo-1653255657076-6ac54333e2f4',
+    tagColor: '#ff965a',
+  },
+];
