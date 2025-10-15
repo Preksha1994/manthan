@@ -2,19 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  /* Foundation Colors */
+  --color-black: #151515;
+  --color-white: #fff;
+  --color-dark-grey: #717171;
+  --color-mid-grey: #aaa;
+  --color-grey: #b6cbcb;
+  
+  /* Brand Colors */
+  --color-dark-blue: #1f47e6;
+  --color-mid-blue: #88a2ff;
+  --color-light-blue: #b7fbff;
+  --color-mid-pink: #ff84e4;
+  --color-light-pink: #ffd1e7;
+  --color-mid-purple: #d987ff;
+  --color-mid-yellow: #ffe03d;
+  --color-light-yellow: #f6fd87;
+  --color-dark-orange: #d1903a;
+  --color-mid-orange: #ff965a;
+  --color-dark-green: #a1a500;
+  --color-mid-green: #78d692;
+}
+
 body {
     margin: 0;
-    font-family:
-        -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-        sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-    font-family:
-        source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
 }
 
 @layer base {
