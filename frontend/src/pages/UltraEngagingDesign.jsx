@@ -9,9 +9,9 @@ const UltraEngagingDesign = () => {
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
     window.addEventListener('scroll', handleScroll);
-    
+
     const timer = setTimeout(() => setShowCTAPopup(true), 10000);
-    
+
     return () => {
       window.removeEventListener('scroll', handleScroll);
       clearTimeout(timer);
@@ -19,28 +19,28 @@ const UltraEngagingDesign = () => {
   }, []);
 
   const testimonials = [
-    {
-      name: "Dr. Jennifer Williams",
-      role: "Museum Director",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400",
-      rating: 5,
-      text: "Twinzy created a masterpiece for our museum. The hyper-realistic detail is extraordinary. Visitors can't believe it's a sculpture!"
-    },
-    {
-      name: "Michael Chen",
-      role: "Family Commissioner",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
-      rating: 5,
-      text: "They immortalized my father with incredible precision. Every wrinkle, every expression - it's like he's still with us. Worth every penny."
-    },
-    {
-      name: "Sarah Anderson",
-      role: "Art Collector",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400",
-      rating: 5,
-      text: "15 years of excellence! Twinzy's craftsmanship is unmatched. The attention to detail and emotional depth captured in silicone is remarkable."
-    }
-  ];
+  {
+    name: "Dr. Jennifer Williams",
+    role: "Museum Director",
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400",
+    rating: 5,
+    text: "Twinzy created a masterpiece for our museum. The hyper-realistic detail is extraordinary. Visitors can't believe it's a sculpture!"
+  },
+  {
+    name: "Michael Chen",
+    role: "Family Commissioner",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+    rating: 5,
+    text: "They immortalized my father with incredible precision. Every wrinkle, every expression - it's like he's still with us. Worth every penny."
+  },
+  {
+    name: "Sarah Anderson",
+    role: "Art Collector",
+    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400",
+    rating: 5,
+    text: "15 years of excellence! Twinzy's craftsmanship is unmatched. The attention to detail and emotional depth captured in silicone is remarkable."
+  }];
+
 
   return (
     <div className="ultra-engaging">
@@ -48,11 +48,11 @@ const UltraEngagingDesign = () => {
       <nav className="ultra-nav">
         <div className="ultra-nav-container">
           <div className="nav-logo-section">
-            <img 
+            <img
               src="https://customer-assets.emergentagent.com/job_lifelikeart/artifacts/tog633sh_twinzy-high-resolution-logo-transparent.png"
               alt="Twinzy - Hyper-Realistic Silicone Sculptures"
-              className="ultra-logo"
-            />
+              className="ultra-logo" />
+
             <div className="logo-badge">
               <Star size={14} fill="#e94e3d" color="#e94e3d" />
               <span>15 Years Excellence</span>
@@ -75,11 +75,11 @@ const UltraEngagingDesign = () => {
       <section className="ultra-hero">
         <div className="hero-video-bg">
           <div className="video-placeholder">
-            <img 
+            <img
               src="https://images.unsplash.com/photo-1643113232611-8cbc1683cfc2"
               alt="Hyper-realistic sculpture background"
-              className="hero-bg-image"
-            />
+              className="hero-bg-image" />
+
             <div className="video-overlay"></div>
           </div>
         </div>
@@ -93,7 +93,7 @@ const UltraEngagingDesign = () => {
               </div>
               <div className="trust-badge">
                 <Users size={20} />
-                <span>500+ Happy Clients</span>
+                <span>50+ Happy Clients</span>
               </div>
             </div>
 
@@ -144,11 +144,11 @@ const UltraEngagingDesign = () => {
 
           <div className="hero-right">
             <div className="hero-showcase">
-              <img 
+              <img
                 src="https://images.unsplash.com/photo-1643113232611-8cbc1683cfc2"
                 alt="Presidential sculpture example"
-                className="showcase-image"
-              />
+                className="showcase-image" />
+
               <div className="showcase-badge">
                 <Sparkles size={32} />
                 <p>"Every detail matters"</p>
@@ -170,7 +170,7 @@ const UltraEngagingDesign = () => {
           <div className="proof-item">
             <Users size={24} />
             <div>
-              <strong>500+</strong>
+              <strong>50+</strong>
               <span>Sculptures Created</span>
             </div>
           </div>
@@ -178,7 +178,7 @@ const UltraEngagingDesign = () => {
           <div className="proof-item">
             <Award size={24} />
             <div>
-              <strong>15 Years</strong>
+              <strong>Years of expertise</strong>
               <span>Master Craftsmanship</span>
             </div>
           </div>
@@ -311,16 +311,16 @@ const UltraEngagingDesign = () => {
             <span className="section-label">CLIENT TESTIMONIALS</span>
             <h2 className="section-title">What Our Clients Say About Their Sculptures</h2>
             <div className="rating-display">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} size={28} fill="#e94e3d" color="#e94e3d" />
-              ))}
-              <span className="rating-text">4.9/5 from 500+ reviews</span>
+              {[...Array(5)].map((_, i) =>
+              <Star key={i} size={28} fill="#e94e3d" color="#e94e3d" />
+              )}
+              <span className="rating-text">4.9/5 from 50+ reviews</span>
             </div>
           </div>
 
           <div className="testimonials-grid">
-            {testimonials.map((testimonial, index) => (
-              <div key={index} className="testimonial-card">
+            {testimonials.map((testimonial, index) =>
+            <div key={index} className="testimonial-card">
                 <div className="testimonial-header">
                   <img src={testimonial.image} alt={testimonial.name} className="testimonial-avatar" />
                   <div className="testimonial-info">
@@ -328,9 +328,9 @@ const UltraEngagingDesign = () => {
                     <p>{testimonial.role}</p>
                   </div>
                   <div className="testimonial-stars">
-                    {[...Array(testimonial.rating)].map((_, i) => (
-                      <Star key={i} size={16} fill="#e94e3d" color="#e94e3d" />
-                    ))}
+                    {[...Array(testimonial.rating)].map((_, i) =>
+                  <Star key={i} size={16} fill="#e94e3d" color="#e94e3d" />
+                  )}
                   </div>
                 </div>
                 <p className="testimonial-text">{testimonial.text}</p>
@@ -339,7 +339,7 @@ const UltraEngagingDesign = () => {
                   <span>Verified Client</span>
                 </div>
               </div>
-            ))}
+            )}
           </div>
         </div>
       </section>
@@ -349,7 +349,7 @@ const UltraEngagingDesign = () => {
         <div className="cta-container">
           <div className="cta-content">
             <h2>Ready to Immortalize Your Legacy?</h2>
-            <p>Join 500+ satisfied clients who chose Twinzy for their hyper-realistic sculpture needs</p>
+            <p>Join 50+ satisfied clients who chose Twinzy for their hyper-realistic sculpture needs</p>
             <div className="cta-buttons">
               <button className="massive-cta-btn">
                 <Phone size={28} className="phone-ring" />
@@ -383,11 +383,11 @@ const UltraEngagingDesign = () => {
           <div className="footer-main">
             <div className="footer-brand">
               <div className="footer-logo-container">
-                <img 
+                <img
                   src="https://customer-assets.emergentagent.com/job_lifelikeart/artifacts/tog633sh_twinzy-high-resolution-logo-transparent.png"
                   alt="Twinzy Sculptures"
-                  className="footer-logo"
-                />
+                  className="footer-logo" />
+
               </div>
               <p>Hyper-realistic silicone sculptures, wax figures, and memorial statues since 2009</p>
               <div className="seo-keywords">
@@ -420,8 +420,8 @@ const UltraEngagingDesign = () => {
       </footer>
 
       {/* Floating CTA Popup */}
-      {showCTAPopup && (
-        <div className="floating-cta-popup">
+      {showCTAPopup &&
+      <div className="floating-cta-popup">
           <button className="popup-close" onClick={() => setShowCTAPopup(false)}>×</button>
           <div className="popup-content">
             <Phone size={32} className="popup-icon" />
@@ -432,9 +432,9 @@ const UltraEngagingDesign = () => {
             </button>
           </div>
         </div>
-      )}
-    </div>
-  );
+      }
+    </div>);
+
 };
 
 export default UltraEngagingDesign;
