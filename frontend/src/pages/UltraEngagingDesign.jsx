@@ -389,7 +389,7 @@ const UltraEngagingDesign = () => {
                   className="footer-logo" />
 
               </div>
-              <p>Hyper-realistic silicone sculptures, wax figures, and memorial statues since 2009</p>
+              <p>Hyper-realistic silicone sculptures, wax figures, and memorial statues since 2023</p>
               <div className="seo-keywords">
                 <span>Life-size sculptures</span>
                 <span>Hyper-realistic wax figures</span>
