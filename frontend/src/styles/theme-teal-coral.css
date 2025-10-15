@@ -1,0 +1,51 @@
+/* Theme 4: Teal & Coral - Fresh & Modern */
+:root {
+  --primary-color: #0d7377;
+  --primary-dark: #084c4f;
+  --accent-color: #ff6b6b;
+  --accent-light: #ff9494;
+  --accent-lighter: #ffd3d3;
+  --neutral-light: #f0feff;
+  --neutral-mid: #7fa8a9;
+  --neutral-dark: #2d4f50;
+  --text-primary: #1a3334;
+  --text-secondary: #466365;
+}
+
+.theme-teal-coral .hero-section {
+  background: linear-gradient(135deg, #f0feff 0%, #c2f0f2 50%, #ffd3d3 100%);
+}
+
+.theme-teal-coral .cta-button {
+  background: #0d7377;
+  border-color: #0d7377;
+  color: white;
+}
+
+.theme-teal-coral .cta-button:hover {
+  background: #14a2a8;
+  border-color: #14a2a8;
+}
+
+.theme-teal-coral .text-accent {
+  color: #ff6b6b;
+}
+
+.theme-teal-coral .bg-accent {
+  background-color: #ff6b6b;
+}
+
+.theme-teal-coral .bg-primary {
+  background-color: #0d7377;
+}
+
+.theme-teal-coral .service-button {
+  background: #c2f0f2;
+  color: #0d7377;
+  border-color: #0d7377;
+}
+
+.theme-teal-coral .service-button.active {
+  background: #0d7377;
+  color: white;
+}

@@ -1,0 +1,51 @@
+/* Theme 2: Navy Blue & Coral - Direct logo match */
+:root {
+  --primary-color: #1e3a5f;
+  --primary-dark: #132841;
+  --accent-color: #ff6b5a;
+  --accent-light: #ff9688;
+  --accent-lighter: #ffd4cc;
+  --neutral-light: #f5f7fa;
+  --neutral-mid: #8b95a5;
+  --neutral-dark: #2d3748;
+  --text-primary: #1a202c;
+  --text-secondary: #4a5568;
+}
+
+.theme-navy-coral .hero-section {
+  background: linear-gradient(135deg, #1e3a5f 0%, #2c5282 50%, #ff6b5a 100%);
+}
+
+.theme-navy-coral .cta-button {
+  background: #ff6b5a;
+  border-color: #ff6b5a;
+  color: white;
+}
+
+.theme-navy-coral .cta-button:hover {
+  background: #ff9688;
+  border-color: #ff9688;
+}
+
+.theme-navy-coral .text-accent {
+  color: #ff6b5a;
+}
+
+.theme-navy-coral .bg-accent {
+  background-color: #ff6b5a;
+}
+
+.theme-navy-coral .bg-primary {
+  background-color: #1e3a5f;
+}
+
+.theme-navy-coral .service-button {
+  background: #ffd4cc;
+  color: #1e3a5f;
+  border-color: #ff6b5a;
+}
+
+.theme-navy-coral .service-button.active {
+  background: #ff6b5a;
+  color: white;
+}
