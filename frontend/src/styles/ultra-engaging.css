@@ -335,7 +335,8 @@
 .phone-ring {
   background: rgba(255, 255, 255, 0.2);
   padding: 1.5rem;
-  border-radius: 50%;\n  animation: ring 2s infinite;
+  border-radius: 50%;
+  animation: ring 2s infinite;
 }
 
 @keyframes ring {
