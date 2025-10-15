@@ -927,9 +927,18 @@
   margin-bottom: 3rem;
 }
 
+.footer-logo-container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 1.5rem 2rem;
+  border-radius: 15px;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+}
+
 .footer-logo {
   height: 70px;
-  margin-bottom: 1.5rem;
+  display: block;
 }
 
 .footer-brand p {
