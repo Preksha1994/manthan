@@ -218,7 +218,7 @@ const DetailedProcess = () => {
     }
   ];
 
-  const totalDuration = '4-6 Months';
+  const totalDuration = '2-2.5 Months';
 
   return (
     <div className="detailed-process-page">
