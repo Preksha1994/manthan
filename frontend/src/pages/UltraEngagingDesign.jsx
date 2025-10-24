@@ -52,11 +52,6 @@ const UltraEngagingDesign = () => {
               src="https://customer-assets.emergentagent.com/job_lifelikeart/artifacts/tog633sh_twinzy-high-resolution-logo-transparent.png"
               alt="Twinzy - Hyper-Realistic Silicone Sculptures"
               className="ultra-logo" />
-
-            <div className="logo-badge">
-              <Star size={14} fill="#e94e3d" color="#e94e3d" />
-              <span>15 Years Excellence</span>
-            </div>
           </div>
           <div className="nav-links">
             <a href="#gallery">Gallery</a>
