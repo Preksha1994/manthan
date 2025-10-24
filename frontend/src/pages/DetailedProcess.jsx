@@ -247,7 +247,7 @@ const DetailedProcess = () => {
             <span className="title-gradient">Hyper-Realistic Sculpture</span>
           </h1>
           <p className="process-hero-subtitle">
-            A meticulous 14-step journey spanning 4-6 months, where cutting-edge technology meets centuries-old craftsmanship to immortalize your legacy in museum-quality silicone.
+            A meticulous 14-step journey spanning 2-2.5 months, where cutting-edge technology meets centuries-old craftsmanship to immortalize your legacy in museum-quality silicone.
           </p>
           
           <div className="process-hero-stats">
