@@ -395,8 +395,8 @@ const UltraEngagingDesign = () => {
               </div>
               <div className="footer-column">
                 <h4>Contact</h4>
-                <p><strong>Phone:</strong> +1 (234) 567-890</p>
-                <p><strong>Email:</strong> hello@twinzy.studio</p>
+                <p><strong>Phone:</strong> +91 9270205007</p>
+                <p><strong>Email:</strong> info@twinzysculptures.com</p>
                 <p><strong>Hours:</strong> Mon-Sat 9AM-6PM</p>
               </div>
             </div>
