@@ -88,7 +88,7 @@ const UltraEngagingDesign = () => {
               </div>
               <div className="trust-badge">
                 <Users size={20} />
-                <span>50+ Happy Clients</span>
+                <span>30+ Happy Clients</span>
               </div>
             </div>
 
