@@ -302,7 +302,7 @@ const UltraEngagingDesign = () => {
               {[...Array(5)].map((_, i) =>
               <Star key={i} size={28} fill="#e94e3d" color="#e94e3d" />
               )}
-              <span className="rating-text">4.9/5 from 50+ reviews</span>
+              <span className="rating-text">4.9/5 from 30+ reviews</span>
             </div>
           </div>
 
