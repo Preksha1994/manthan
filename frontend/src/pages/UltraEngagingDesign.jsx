@@ -158,7 +158,7 @@ const UltraEngagingDesign = () => {
           <div className="proof-item">
             <Users size={24} />
             <div>
-              <strong>50+</strong>
+              <strong>30+</strong>
               <span>Sculptures Created</span>
             </div>
           </div>
