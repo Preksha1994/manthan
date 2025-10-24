@@ -275,7 +275,7 @@ const DetailedProcess = () => {
             <div className="hero-stat-item">
               <Award size={32} />
               <div>
-                <strong>127 Checkpoints</strong>
+                <strong>50 Checkpoints</strong>
                 <span>Quality Control</span>
               </div>
             </div>
