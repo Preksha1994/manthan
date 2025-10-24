@@ -199,7 +199,7 @@ const UltraEngagingDesign = () => {
                 </button>
                 <div className="video-duration">5:30</div>
               </div>
-              <h3>Complete Sculpture Process - From Clay to Silicone</h3>
+              <h3>From Vision to Hyper-Realistic Silicone Sculpture</h3>
             </div>
 
             <div className="video-card">
