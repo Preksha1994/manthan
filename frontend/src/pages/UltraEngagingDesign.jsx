@@ -103,7 +103,7 @@ const UltraEngagingDesign = () => {
             <div className="hero-features">
               <div className="feature-check">
                 <CheckCircle size={20} />
-                <span>Medical-grade silicone for lifelike skin texture</span>
+                <span>High-grade silicone for lifelike skin texture</span>
               </div>
               <div className="feature-check">
                 <CheckCircle size={20} />
