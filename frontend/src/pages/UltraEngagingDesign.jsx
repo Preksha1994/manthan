@@ -128,11 +128,6 @@ const UltraEngagingDesign = () => {
                 <span>Watch Our Process</span>
               </button>
             </div>
-
-            <div className="urgency-banner">
-              <Clock size={18} />
-              <span>⚡ Only <strong>3 commission slots</strong> available this month</span>
-            </div>
           </div>
 
           <div className="hero-right">
