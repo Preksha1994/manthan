@@ -20,25 +20,25 @@ const UltraEngagingDesign = () => {
 
   const testimonials = [
   {
-    name: "Dr. Jennifer Williams",
-    role: "Museum Director",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400",
-    rating: 5,
-    text: "Twinzy created a masterpiece for our museum. The hyper-realistic detail is extraordinary. Visitors can't believe it's a sculpture!"
-  },
-  {
-    name: "Michael Chen",
-    role: "Family Commissioner",
+    name: "Rajesh Kumar",
+    role: "Business Owner",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
     rating: 5,
-    text: "They immortalized my father with incredible precision. Every wrinkle, every expression - it's like he's still with us. Worth every penny."
+    text: "Twinzy created a masterpiece for our family. The hyper-realistic detail is extraordinary. Everyone who visits can't believe it's a sculpture!"
   },
   {
-    name: "Sarah Anderson",
-    role: "Art Collector",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400",
+    name: "Priya Sharma",
+    role: "Teacher",
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400",
     rating: 5,
-    text: "15 years of excellence! Twinzy's craftsmanship is unmatched. The attention to detail and emotional depth captured in silicone is remarkable."
+    text: "They captured my mother's essence with incredible precision. Every wrinkle, every expression - it's like she's still with us. Worth every penny."
+  },
+  {
+    name: "Amit Patel",
+    role: "Engineer",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+    rating: 5,
+    text: "Twinzy's craftsmanship is unmatched. The attention to detail and emotional depth captured in silicone is remarkable. Highly recommend!"
   }];
 
 
