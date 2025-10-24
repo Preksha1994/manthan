@@ -98,9 +98,7 @@ const UltraEngagingDesign = () => {
             </div>
 
             <h1 className="hero-title">
-              <span className="title-highlight">Preserve</span> Precious Memories
-              <br />
-              <span className="title-gradient">Forever in Art</span>
+              <span className="title-gradient">Preserving Legacies Through the Art of Sculpture</span>
             </h1>
 
             <p className="hero-subtitle">
