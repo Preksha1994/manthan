@@ -846,11 +846,11 @@
   color: var(--white);
   border: none;
   padding: 0;
-  border-radius: 70px;
+  border-radius: 60px;
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
   box-shadow: 0 15px 50px rgba(233, 78, 61, 0.5);
   transition: all 0.3s ease;
   animation: pulse-scale 3s infinite;
