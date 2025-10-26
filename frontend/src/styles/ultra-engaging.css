@@ -352,17 +352,17 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-right: 2rem;
+  padding-right: 1.5rem;
 }
 
 .cta-main {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 800;
   line-height: 1.2;
 }
 
 .cta-sub {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   opacity: 0.9;
   font-weight: 500;
 }
