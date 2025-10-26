@@ -20,18 +20,18 @@ const UltraEngagingDesign = () => {
 
   const testimonials = [
   {
-    name: "Rajesh Kumar",
-    role: "Business Owner",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+    name: "Aparna Sharma",
+    role: "Homemaker",
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400",
     rating: 5,
     text: "Twinzy created a masterpiece for our family. The hyper-realistic detail is extraordinary. Everyone who visits can't believe it's a sculpture!"
   },
   {
-    name: "Priya Sharma",
-    role: "Teacher",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400",
+    name: "Pawan Kumar",
+    role: "Business Owner",
+    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400",
     rating: 5,
-    text: "They captured my mother's essence with incredible precision. Every wrinkle, every expression - it's like she's still with us. Worth every penny."
+    text: "They captured my father's essence with incredible precision. Every wrinkle, every expression - it's like he's still with us. Worth every penny."
   },
   {
     name: "Amit Patel",
