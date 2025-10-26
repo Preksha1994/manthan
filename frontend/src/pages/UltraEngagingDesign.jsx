@@ -383,10 +383,10 @@ const UltraEngagingDesign = () => {
             <div className="footer-links">
               <div className="footer-column">
                 <h4>Services</h4>
-                <a href="#">Life-Size Sculptures</a>
-                <a href="#">Half-Body Portraits</a>
-                <a href="#">Bust Collections</a>
-                <a href="#">Memorial Statues</a>
+                <a href="#">Life Size Hyper Realistic Personalized Sculpture</a>
+                <a href="#">Celebrity Sculptures</a>
+                <a href="#">Half Body Portraits</a>
+                <a href="#">Bust Collection</a>
               </div>
               <div className="footer-column">
                 <h4>Contact</h4>
