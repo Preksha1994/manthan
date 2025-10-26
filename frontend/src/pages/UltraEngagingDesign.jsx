@@ -409,7 +409,7 @@ const UltraEngagingDesign = () => {
           <div className="popup-content">
             <Phone size={32} className="popup-icon" />
             <h3>Still Thinking?</h3>
-            <p>Get a FREE consultation now!</p>
+            <p>Call now for more details!</p>
             <button className="popup-cta-btn">
               Call +91 9270205007
             </button>
