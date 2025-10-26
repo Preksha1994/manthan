@@ -333,7 +333,6 @@ const UltraEngagingDesign = () => {
         <div className="cta-container">
           <div className="cta-content">
             <h2>Ready to Transform Memories into Masterpieces?</h2>
-            <p>Join 30+ satisfied clients who chose Twinzy for their hyper-realistic sculpture needs</p>
             <div className="cta-buttons">
               <button className="massive-cta-btn">
                 <Phone size={28} className="phone-ring" />
