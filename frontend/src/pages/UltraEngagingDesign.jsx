@@ -116,7 +116,7 @@ const UltraEngagingDesign = () => {
                 <Phone size={24} className="phone-ring" />
                 <div className="cta-text">
                   <span className="cta-main">Call Now: +91 9270205007</span>
-                  <span className="cta-sub">FREE Consultation - Limited Slots Available</span>
+                  <span className="cta-sub">For More Details - Limited Slots Available</span>
                 </div>
               </button>
               <button className="secondary-cta-btn">
